@@ -27,7 +27,7 @@ Run tests `sfdx force:apex:test:run`
 ## Deploy
 Convert to metadata  `sfdx force:source:convert -d mdapioutput_dir/`
 
-Deploy to Org        `sfdx force:mdapi:deploy -d mdapioutput_dir  / -u <alias or username> -l RunSpecifiedTests -r <test1,test2>`
+Deploy to Org        `sfdx force:mdapi:deploy -d mdapioutput_dir/ -u <alias or username> -l RunSpecifiedTests -r <test1,test2>`
 
 ## Cleanup
 Delete scratch org   `sfdx force:org:delete -u <alias or username>`
