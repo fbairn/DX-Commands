@@ -8,7 +8,7 @@ Feel free to suggest additions/changes.
 ## Setup
 Create workspace `sfdx force:workspace:create --workspacename <workspace name>`
 
-Create Scratch Org   `sfdx force:org:create --definitionfile workspace-scratch-def.json`
+Create Scratch Org   `sfdx force:org:create --setdefaultusername -a <alias> -f config/workspace-scratch-def.json`
 
 Open the org         `sfdx force:org:open`
 
