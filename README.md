@@ -35,4 +35,5 @@ Deploy to Org        `sfdx force:mdapi:deploy -d mdapioutput_dir/ -u <alias or u
 Delete scratch org   `sfdx force:org:delete -u <alias or username>`
 
 ## Settings
-Current configuration and settings: sfdx force:config:list
+Current configuration and settings   `sfdx force:config:list`
+List Orgs   `sfdx force:org:list --verbose`
