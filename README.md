@@ -36,4 +36,5 @@ Delete scratch org   `sfdx force:org:delete -u <alias or username>`
 
 ## Settings
 Current configuration and settings   `sfdx force:config:list`
+
 List Orgs   `sfdx force:org:list --verbose`
