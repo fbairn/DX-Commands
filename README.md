@@ -16,6 +16,8 @@ Fetch Metadata       `sfdx force:mdapi:retrieve -s -r ./mdapipackage -u <alias o
 
 Convert Metadata     `sfdx force:mdapi:convert --rootdir ./mdapipackage`
 
+Switch default org   `sfdx force:config:set defaultusername=<alias>`
+
 
 ## Develop
 Push to scratch	`sfdx force:source:push -u <alias or username>`
@@ -31,3 +33,6 @@ Deploy to Org        `sfdx force:mdapi:deploy -d mdapioutput_dir/ -u <alias or u
 
 ## Cleanup
 Delete scratch org   `sfdx force:org:delete -u <alias or username>`
+
+## Settings
+Current configuration and settings: sfdx force:config:list
