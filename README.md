@@ -6,9 +6,9 @@ Feel free to suggest additions/changes.
 
 
 ## Setup
-Create workspace `sfdx force:workspace:create --workspacename <workspace name>`
+Create project `sfdx force:project:create --projectname <project name>`
 
-Create Scratch Org   `sfdx force:org:create --setdefaultusername -a <alias> -f config/workspace-scratch-def.json`
+Create Scratch Org   `sfdx force:org:create --setdefaultusername -a <alias> -f config/project-scratch-def.json`
 
 Open the org         `sfdx force:org:open`
 
@@ -20,11 +20,11 @@ Switch default org   `sfdx force:config:set defaultusername=<alias>`
 
 
 ## Develop
-Push to scratch	`sfdx force:source:push -u <alias or username>`
+Push to scratch       `sfdx force:source:push -u <alias or username>`
 
 Pull from scratch     `sfdx force:source:pull -u <alias or username>`
 
-Run tests `sfdx force:apex:test:run`
+Run tests             `sfdx force:apex:test:run`
 
 ## Deploy
 Convert to metadata  `sfdx force:source:convert -d mdapioutput_dir/`
@@ -34,7 +34,7 @@ Deploy to Org        `sfdx force:mdapi:deploy -d mdapioutput_dir/ -u <alias or u
 ## Cleanup
 Delete scratch org   `sfdx force:org:delete -u <alias or username>`
 
-## Settings
+## Settings and Information
 Current configuration and settings   `sfdx force:config:list`
 
 List Orgs   `sfdx force:org:list --verbose`
